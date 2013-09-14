@@ -1038,10 +1038,6 @@ input#wpSave, input#wpDiff {
 	margin-right: 0.33em;
 }
 
-#editform .editOptions {
-	display: inline;
-}
-
 #wpSave {
 	font-weight: bold;
 }
