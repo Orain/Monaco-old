@@ -1,0 +1,54 @@
+Arcane's Modified Monaco
+
+Version 1.0
+
+A modification of the Monaco skin port by Dantman for MediaWiki
+
+
+== Introduction ==
+
+I'm Arcane (known as Arcane 21 on Wikimedia project websites), and I have created a modified version of the Monaco skin by Daniel Friesen (i.e. - Dantman) for use by anyone who likes the Monaco skin but find it gives them display errors with certain extensions or simply does not scale certain buttons, bars, or other interface elements properly, especially on recent versions of MediaWiki (1.19+)
+
+
+
+To that end, I have done the following:
+
+
+
+1. All information from the "buttons.css" file was removed. I did not remove the file itself, simply all the 
+information within. This merely makes the buttons used by the MediaWiki interface revert to the Monobook/vector 
+button schema instead of the ported Wikia buttons Dantman's port used. This was partially for compatibility with 
+certain extensions like WikiEditor, and partially for aesthetics, as the original button frankly looked somewhat 
+ugly and their colors clashed horribly with certain parts of the interface.
+
+2. The "monobook_modified" file was altered, mostly by removing certain portions of the included CSS styling for 
+the edit windows and certain aspects of the content area, which causes them to revert to MediaWiki's default 
+settings, which are far more compatible with the more recent versions of MediaWiki. I have also included edits 
+towards the end of the file that fix some alignment errors when using the WikiEditor extension. They will not 
+affect the wiki if the extension is not enabled and are basically a patch for any alignment errors that may be 
+present with the original Monaco port.
+
+3. This skin is installed in the exact same way as Dantman's port, and I have included all of the original 
+documentation Daniel Friesen included in this port, so please refer to that for installation and configuration. 
+The skin was ported from Wikia by Daniel Friesen, both of which had released the skin and its related coding as 
+open source, and I hereby release this modification of their work under the same conditions and have included all 
+the original documentation as an acknowledgement of their contributions, and would like to thank both parties 
+for making this project possible.
+
+
+
+
+== Problems / Troubleshooting ==
+
+If there are any bugs, problems, or you simply wish to offer suggestions or comments regarding this extension, 
+I may be contacted at the following locations:
+
+https://www.mediawiki.org/wiki/User:Arcane21
+
+Email: arcane@live.com
+
+
+== Version History ==
+
+1.0 - Initial Version
+
