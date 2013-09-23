@@ -9,6 +9,10 @@
  * @author Christian Williams
  * @author Daniel Friesen
  */
+/**
+ * Arcane's Modified Monaco skin
+ * @author Arcane <arcane@live.com>
+ */
 
 if( !defined( 'MEDIAWIKI' ) ) die( "This is an extension to the MediaWiki package and cannot be run standalone." );
 
@@ -17,7 +21,7 @@ $wgExtensionCredits['skin'][] = array (
 	'name' => 'Monaco',
 	'author' => array('[http://www.wikia.com/ Wikia]', 'Inez Korczynski', 'Christian Williams', '[http://mediawiki.org/wiki/User:Dantman Daniel Friesen]'),
 	'descriptionmsg' => 'monaco-desc',
-	'url' => "https://github.com/dantman/monaco-port",
+	'url' => "https://github.com/Arcane21/monaco-port",
 );
 
 $wgValidSkinNames['monaco'] = 'Monaco';
