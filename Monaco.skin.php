@@ -1227,14 +1227,6 @@ if ($custom_article_footer !== '') {
 		if ( $writeArticleUrl && $writeArticleUrl !== '-' && !wfEmptyMsg('dynamic-links-write-article-url', $writeArticleUrl) ) {
 			$createPage = Title::newFromText($writeArticleUrl);
 		}
-		if ( !isset($createPage) && !empty($wgMonacoDynamicCreateOverride) ) {
-			$createPage = Title::newFromText($wgMonacoDynamicCreateOverride);
-		}
-		if ( !isset($createPage) ) {
-			if ( SpecialPage::exists('CreatePage') ) {
-				$createPage = SpecialPage::getTitleFor('CreatePage');
-			}
-		}
 		if ( isset($createPage) && ( $wgUser->isAllowed('edit') || $wgUser->isAnon() ) ) {
 			/* Redirect to login page instead of showing error, see Login friction project */
 			$dynamicLinksInternal["write-article"] = array(
