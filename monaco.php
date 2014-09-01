@@ -20,7 +20,7 @@ $wgExtensionCredits['skin'][] = array (
 	'path' => __FILE__,
 	'name' => 'Monaco',
 	'author' => array('[http://www.wikia.com/ Wikia]', 'Inez Korczynski', 'Christian Williams', '[http://mediawiki.org/wiki/User:Dantman Daniel Friesen]', '[https://www.mediawiki.org/wiki/User:Arcane21 Arcane21]'),
-	'descriptionmsg' => 'Dantman's Monaco port, modified for compatiblity with MediaWiki 1.23+',
+	'descriptionmsg' => 'Dantman's Monaco port, modified so as to be compatible with MediaWiki 1.23+',
 	'url' => "https://github.com/Arcane21/monaco-port",
 );
 
